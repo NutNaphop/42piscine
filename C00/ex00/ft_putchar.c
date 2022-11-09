@@ -6,7 +6,7 @@
 /*   By: nkhumcha <nkhumcha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 01:57:38 by nkhumcha          #+#    #+#             */
-/*   Updated: 2022/11/09 02:51:29 by nkhumcha         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:12:32 by nkhumcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,3 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int	main(void)
-{
-	ft_putchar(97);
-}
