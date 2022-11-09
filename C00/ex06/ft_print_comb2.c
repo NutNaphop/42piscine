@@ -6,7 +6,7 @@
 /*   By: nkhumcha <nkhumcha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 15:36:58 by nkhumcha          #+#    #+#             */
-/*   Updated: 2022/11/09 15:38:50 by nkhumcha         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:41:25 by nkhumcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include<unistd.h>
@@ -39,9 +39,4 @@ void	ft_print_comb2(void)
 			}
 		}
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb2();
-}
+}}
