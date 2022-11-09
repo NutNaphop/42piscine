@@ -6,7 +6,7 @@
 /*   By: nkhumcha <nkhumcha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:11:07 by nkhumcha          #+#    #+#             */
-/*   Updated: 2022/11/09 13:17:07 by nkhumcha         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:36:39 by nkhumcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -28,7 +28,3 @@ void	ft_print_numbers(void)
 	}
 }
 
-int	main(void)
-{
-	ft_print_numbers();
-}
