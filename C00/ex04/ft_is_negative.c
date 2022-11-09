@@ -1,30 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nkhumcha <nkhumcha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:11:07 by nkhumcha          #+#    #+#             */
-/*   Updated: 2022/11/09 13:17:07 by nkhumcha         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:39:23 by nkhumcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
-#include <stdio.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_is_negative(int a)
 {
 	if (a < 0)
 	{
-		printf("N");
+		ft_putchar('N');
 	}
 	else
 	{
-		printf("P");
+		ft_putchar('P');
 	}
 }
 
-int	main(void)
-{
-	ft_is_negative(-5);
-}
