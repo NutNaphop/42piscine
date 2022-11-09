@@ -6,7 +6,7 @@
 /*   By: nkhumcha <nkhumcha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 12:06:55 by nkhumcha          #+#    #+#             */
-/*   Updated: 2022/11/09 13:04:54 by nkhumcha         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:15:02 by nkhumcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,4 @@ void	ft_print_alphabet(void)
 		ft_print_putchar(alpha);
 		alpha --;
 	}
-}
-
-int	main(void)
-{
-	ft_print_alphabet();
 }
